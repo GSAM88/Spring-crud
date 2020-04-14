@@ -1,0 +1,119 @@
+
+        body {
+            background: url('https://countrynavigator.com/wp-content/uploads/iStock-494617082.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+        }
+
+
+        input[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=date],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: rgb(28, 94, 83);
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=back] {
+            width: 8%;
+            background-color: rgb(110, 121, 119);
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: rgb(0, 128, 107);
+            ;
+        }
+
+        .backbutton{
+            width: 13%;
+            background-color: rgb(110, 121, 119);
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        
+        .modal-login {
+            color: #636363;
+            width: 350px;
+        }
+
+
+        .modal-login .modal-header {
+            border-bottom: none;
+            position: relative;
+            justify-content: center;
+        }
+
+        .modal-login h4 {
+            text-align: center;
+            font-size: 26px;
+            margin: 30px 0 -15px;
+        }
+
+
+        .modal-login .close {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+        }
+
+
+        .modal-login.modal-dialog {
+            margin-top: 80px;
+        }
+
+        .modal-login .btn {
+            color: #fff;
+            border-radius: 4px;
+            background: #60c7c1;
+            text-decoration: none;
+            transition: all 0.4s;
+            line-height: normal;
+            border: none;
+        }
+
+        .trigger-btn {
+            display: inline-block;
+            margin: 200px auto;
+        }
+        
+        h1{
+            color: rgb(14, 40, 48);
+        }
